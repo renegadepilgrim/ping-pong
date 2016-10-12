@@ -17,18 +17,20 @@
         <p>2. Numbers divisible by 5 become "pong"</p>
         <p>3. Numbers divisible by 15 become "pingpong"</p>
 
-      <form id="pingpong">
-        <input type="number" class="form-control" id="userInput">
+      <div class="form-group">
+        <form id="pingpong">
         <br>
-        <button type="submit" class="btn btn-primary" id=inputNumber>Enter a number</button>
-      </form>
-        <div class="result">
-          <p>Your result is:</p>
-          <ul>
-            <span id="result"></span>
+          <input id="userInput" type="text" class="form-control">
+        <br>
+        <button type="submit" class="btn btn-primary">Ping the Pong!</button>
+        </form>
+      </div>
+      <br>
+        <div class="col-sm-4 col-sm-push-1">
+          <p>Here are your results!</p>
+          <ul id="result">
           </ul>
         </div>
     </div>
-
   </body>
 </html>

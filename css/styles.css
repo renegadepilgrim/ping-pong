@@ -1,3 +1,7 @@
 #result {
-  display: none;
+  display: show;
+}
+
+body {
+  background-color: #f78c8c;
 }
