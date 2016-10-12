@@ -27,11 +27,11 @@ Specs:
   Example Output: pingpong </ol>
 </p>
 
-Support and contact details
+<h3>Support and contact details</h3>
 
 Please contact me with any questions, concerns, or ideas at heather.knight.pdx@gmail.com
 
-Technologies Used
+<h3>Technologies Used</h3>
 
 HTML
 CSS
@@ -40,7 +40,7 @@ Javascript
 jQuery
 
 
-License
+<h3>License</h3>
 
 Licensed under the MIT license
 
