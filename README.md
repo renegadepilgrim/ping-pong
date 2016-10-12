@@ -13,17 +13,19 @@ This site takes a number from a user and returns a range of numbers from 1 to th
 <ol>Numbers divisible by 15 are replaced with "pingpong"</ol>
 
 Specs:
-<p>1. This program will replace numbers divisible by 3 with the word "ping".
+<p>
+<ol>1. This program will replace numbers divisible by 3 with the word "ping".
   Example Input: 15
-  Example Output: ping
+  Example Output: ping</ol>
   
-2. This program will replace numbers divisible by 5 with the word "pong".
+<ol>2. This program will replace numbers divisible by 5 with the word "pong".
   Example Input: 10
-  Example Output: pong
+  Example Output: pong</ol>
 
-3. This program will replace numbers divisible by 15 with the word "pingpong".
+<ol>3. This program will replace numbers divisible by 15 with the word "pingpong".
   Example Input: 30
-  Example Output: pingpong </p>
+  Example Output: pingpong </ol>
+</p>
 
 Support and contact details
 
