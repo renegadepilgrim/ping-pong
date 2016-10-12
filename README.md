@@ -12,7 +12,7 @@ This site takes a number from a user and returns a range of numbers from 1 to th
 <ol>Numbers divisible by 5 are replaced with "pong"</ol>
 <ol>Numbers divisible by 15 are replaced with "pingpong"</ol>
 
-<h3>Specs:.</h3>
+<h3>Specs:</h3>
 <p>
 <ol>1. This program will replace numbers divisible by 3 with the word "ping".</ol>
   <ol>Example Input: 15</ol>
