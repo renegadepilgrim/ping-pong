@@ -4,7 +4,7 @@ A website which allows for the input of numbers and the output of words that mak
 
 <h4>By Heather Knight</h4>
 
-Description
+<h3>Description</h3>
 
 This site takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
@@ -12,19 +12,19 @@ This site takes a number from a user and returns a range of numbers from 1 to th
 <ol>Numbers divisible by 5 are replaced with "pong"</ol>
 <ol>Numbers divisible by 15 are replaced with "pingpong"</ol>
 
-Specs:
+<h3>Specs:.</h3>
 <p>
-<ol>1. This program will replace numbers divisible by 3 with the word "ping".
-  Example Input: 15
-  Example Output: ping</ol>
+<ol>1. This program will replace numbers divisible by 3 with the word "ping".</ol>
+  <ol>Example Input: 15</ol>
+  <ol>Example Output: ping</ol>
   
-<ol>2. This program will replace numbers divisible by 5 with the word "pong".
-  Example Input: 10
-  Example Output: pong</ol>
+<ol>2. This program will replace numbers divisible by 5 with the word "pong".</ol>
+  <ol>Example Input: 10</ol>
+  <ol>Example Output: pong</ol>
 
-<ol>3. This program will replace numbers divisible by 15 with the word "pingpong".
-  Example Input: 30
-  Example Output: pingpong </ol>
+<ol>3. This program will replace numbers divisible by 15 with the word "pingpong".</ol>
+  <ol>Example Input: 30</ol>
+  <ol>Example Output: pingpong </ol>
 </p>
 
 <h3>Support and contact details</h3>
