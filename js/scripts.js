@@ -5,16 +5,16 @@ pingpong = function(userNumber)  {
 
   for (var number =1; number <= userNumber; number++) {
     if (number % 15 === 0) {
-      result.push("pingpong");
+      (#result).text("pingpong");
     //$("#result").append("ping pong");
     } else if (number % 3 === 0) {
-      result.push("pong");
+      (#result).text("pong");
   //  $("#result").append("ping");
     } else if (number % 5 === 0) {
-      result.push("ping");
+      (#result).text("ping");
   //  $("#result").append("pong");
     } else {
-      result.push(number);
+      (#result).text(number);
   //  $("#result").append(number);
     }
   }
