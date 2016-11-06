@@ -1,16 +1,16 @@
 <h1>Ping Pong!</h1>
 
-A website which allows for the input of numbers and the output of words that make up "ping", "pong" or "pingpong"
+<p>A website which allows for the input of numbers and the output of words that make up "ping", "pong" or "pingpong".  Viewable here: https://renegadepilgrim.github.io/ping-pong/</p>
 
 <h4>By Heather Knight</h4>
 
 <h3>Description</h3>
 
-This site takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+<p>This site takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:</p>
 
-<ol>Numbers divisible by 3 are replaced with "ping"</ol>
-<ol>Numbers divisible by 5 are replaced with "pong"</ol>
-<ol>Numbers divisible by 15 are replaced with "pingpong"</ol>
+  <ol>Numbers divisible by 3 are replaced with "ping"</ol>
+  <ol>Numbers divisible by 5 are replaced with "pong"</ol>
+  <ol>Numbers divisible by 15 are replaced with "pingpong"</ol>
 
 <h3>Specs:</h3>
 <p>
@@ -33,11 +33,11 @@ Please contact me with any questions, concerns, or ideas at heather.knight.pdx@g
 
 <h3>Technologies Used</h3>
 
-HTML
-CSS
-Bootstrap
-Javascript
-jQuery
+  <ol>HTML</ol>
+  <ol>CSS</ol>
+  <ol>Bootstrap</ol>
+  <ol>Javascript</ol>
+  <ol>jQuery</ol>
 
 
 <h3>License</h3>
