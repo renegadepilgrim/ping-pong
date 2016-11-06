@@ -1,24 +1,28 @@
 //(business)back-end logic
-pingpong = function(userNumber)  {
+pingPong = function(input)  {
 
-  var result = [];
+  var results = [];
 
-  for (var number =1; number <= userNumber; number++) {
+  for (var number = 1; number <= input; number++) {
     if (number % 15 === 0) {
-      (#result).text("pingpong");
-    //$("#result").append("ping pong");
+      //$("#result").text("pingpong");
+      results.push("pingpong");
+      //$("#result").append("<li>ping pong</li>");
     } else if (number % 3 === 0) {
-      (#result).text("pong");
-  //  $("#result").append("ping");
+      results.push("ping");
+    // $("#result").text("pong");
+    //  $("#result").append("<li>ping</li>");
     } else if (number % 5 === 0) {
-      (#result).text("ping");
-  //  $("#result").append("pong");
+      results.push("pong");
+  //    $("#result").text("ping");
+    //  $("#result").append("<li>pong</li>");
     } else {
-      (#result).text(number);
-  //  $("#result").append(number);
+      results.push(number)
+      //$("#result").text(number);
+      //$("#result").append("<li>" + number + "</li>");
     }
   }
-  return result.join(", ");
+  return results.join(", ");
 };
 
 
@@ -27,12 +31,13 @@ $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
 
-  //$("#result").empty();
+  var userInput = $("input#userValue").val();
+  var result = pingPong(userInput);
 
-    var userInput = $("input#userValue").val();
-    var result = pingpong(userInput);
-
+    //$("#result").empty();
     $("#result").text(result);
     $("#result").show();
+    //var userInput = $("input").val();
+  //  addInput(userInput);
   });
 });
